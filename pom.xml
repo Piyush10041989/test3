@@ -17,6 +17,7 @@
   </dependencies>
   <build>
     <finalName>test3</finalName>
+    </build>
  <profiles>
 	<!-- Docker Profile -->
 		<profile>
@@ -81,5 +82,5 @@
 			</build>
 		</profile>
 	</profiles>
-  </build>
+  
 </project>
