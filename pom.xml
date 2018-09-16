@@ -26,7 +26,7 @@
 							<images>
 								<image>
 								<alias>${project.artifactId}</alias>
-                                <name>${docker.repository.name}</name>
+                                <name>${docker.registry.name}${project.artifactId}</name>
 									<build>
 										<tags>
 											<tag>${project.version}</tag>
